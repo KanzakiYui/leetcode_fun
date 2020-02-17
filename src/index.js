@@ -1,5 +1,12 @@
 import data from './constant';
 
+// register the highlight lib only for javascript
+import hljs from 'highlight.js/lib/highlight';
+import javascript from 'highlight.js/lib/languages/javascript';
+hljs.registerLanguage('javascript', javascript);
+
+
+
 // preparation
 data.sort((a, b)=> a.localeCompare(b));
 const names = data.map(info => info.name);
@@ -23,4 +30,5 @@ import(`./questions/${filenames[0]}.js`).then(importedModules => {
     const fileContent = `const ${functionName} = ${String(importedModules.default)}`;
     const codeArea = document.getElementById('code-block');
     codeArea.textContent = fileContent;
+    hljs.highlightBlock(codeArea);
 });

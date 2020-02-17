@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Fun for playing around algorithm questions from Leetcode",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "highlight.js": "^9.18.1"
+  },
   "devDependencies": {
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11",
