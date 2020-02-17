@@ -1,5 +1,6 @@
-const rotate = matrix => {
-    // Question: https://leetcode.com/problems/rotate-image/
+const rotate = function(matrix){
+    // https://leetcode.com/problems/rotate-image/
+
     const len = matrix.length;
     for(let i=len; i<2*len; i++){
       let temp = [];
@@ -11,4 +12,5 @@ const rotate = matrix => {
       matrix.shift();
     return matrix;
 };
+
 export default rotate;

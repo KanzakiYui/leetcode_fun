@@ -1,5 +1,5 @@
-const twoSum = (nums, target) => {
-    // Question: https://leetcode.com/problems/two-sum/
+const twoSum = function(nums, target){
+    // https://leetcode.com/problems/two-sum/
 
     const map = new Map();
     for(let i=0; i<nums.length; i++){
@@ -9,4 +9,5 @@ const twoSum = (nums, target) => {
         map.set(nums[i], i);
     }
 };
+
 export default twoSum;
