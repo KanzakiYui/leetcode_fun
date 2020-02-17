@@ -1,0 +1,27 @@
+{
+  "name": "leetcode_fun",
+  "version": "1.0.0",
+  "description": "Fun for playing around algorithm questions from Leetcode",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KanzakiYui/leetcode_fun.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KanzakiYui/leetcode_fun/issues"
+  },
+  "homepage": "https://github.com/KanzakiYui/leetcode_fun#readme"
+}
