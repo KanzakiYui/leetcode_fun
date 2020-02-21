@@ -53,5 +53,10 @@ export default [
         name: 'Subarrays with K Different Integers',
         filename: 'subarrays-with-k-different-integers',
         functionName: 'subarraysWithKDistinct'
+    },
+    {
+        name: 'Maximum Subarray',
+        filename: 'maximum-subarray',
+        functionName: 'maxSubArray'
     }
 ]
