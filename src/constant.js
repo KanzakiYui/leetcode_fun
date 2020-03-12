@@ -59,4 +59,10 @@ export default [
         filename: 'maximum-subarray',
         functionName: 'maxSubArray'
     }
+    ,
+    {
+        name: 'Rotting Oranges',
+        filename: 'rotting-oranges',
+        functionName: 'orangesRotting'
+    }
 ]
