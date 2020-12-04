@@ -4,7 +4,7 @@
   "description": "Fun for playing around algorithm questions from Leetcode",
   "main": "index.js",
   "dependencies": {
-    "highlight.js": "^9.18.1"
+    "highlight.js": "^10.4.1"
   },
   "devDependencies": {
     "css-loader": "^3.4.2",
